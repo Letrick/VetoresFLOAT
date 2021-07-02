@@ -1,0 +1,15 @@
+#include <iostream>
+
+
+float subtracao(float numero1, float numero2, float numero3){
+    return numero1 - numero2 - numero3;
+}
+
+float soma(float numero1, float numero2, float numero3){
+    return numero1 + numero2 + numero3;
+}
+
+int main(){
+    std::cout<<subtracao(2, 444, 1)<< "\n";
+    std::cout<<soma(55, 37, 2);
+}
