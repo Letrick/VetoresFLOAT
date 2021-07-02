@@ -1,0 +1,16 @@
+#include<iostream>
+
+
+
+int tabuadas(int numero1){
+    for(int limiteTabuada= 0; limiteTabuada <= 10; limiteTabuada++){ //define o ponto de partida da multiplicação (1x0 ou 1x1)
+        std::cout<< numero1 << " X " << limiteTabuada << " = " << numero1 * limiteTabuada <<" \n ";
+    }
+}
+
+
+int main(){
+    for(int contagemTab= 1; contagemTab <=10; contagemTab++){ //define em qual tabuada começar (na do 1 ou a do 2)
+        tabuadas(contagemTab);
+    }
+}
