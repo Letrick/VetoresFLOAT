@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+int main(){
+    int numero[15];
+       srand(time(NULL));
+
+
+   for(int i = 0; i<15; i++){
+        numero[i]=rand()%100;
+
+        if(numero[i] %2 == 0)
+        {
+            std::cout<<"O valor a seguir "<<numero[i] << " e par \n";
+        }
+        else if(numero[i] %2 == 1){
+            std::cout<<"O valor a seguir "<<numero[i]<< " e impar \n";
+        }
+    }
+
+    return 0;
+
+}
