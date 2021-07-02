@@ -1,0 +1,140 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numero1;
+    int numero2;
+    int numero3;
+    int numero4;
+    cout<<"Digite o primeiro numero: ";
+    cin>>numero1;
+    cout<<"Digite o segundo numero: ";
+    cin>>numero2;
+    cout<<"Digite o terceiro numero: ";
+    cin>>numero3;
+    cout<<"Digite o quarto numero: ";
+    cin>>numero4;
+    if(numero1 > numero2 &&numero1 > numero3 &&numero1 > numero4){
+        cout<<numero1<<", ";
+        if(numero2 > numero3 &&numero2 > numero4){
+            cout<<numero2<<", ";
+            if(numero3 > numero4){
+                cout<<numero3<<", "<<numero4;
+            }
+            if(numero4 > numero3){
+                cout<<numero4<<", "<<numero3;
+            }
+        }
+        if(numero3 > numero2 &&numero3 > numero4){
+            cout<<numero3<<", ";
+            if(numero2 > numero4){
+                cout<<numero2<<", "<<numero4;
+            }
+            if(numero4 > numero2){
+                cout<<numero4<<", "<<numero2;
+            }
+        }
+        if(numero4 > numero2 &&numero4 > numero3){
+            cout<<numero4<<", ";
+            if(numero2 > numero3){
+                cout<<numero2<<", "<<numero3;
+            }
+            if(numero3 > numero2){
+                cout<<numero3<<", "<<numero2;
+            }
+        }    
+    }
+    if(numero2 > numero1 && numero2 > numero3 && numero2 > numero4){
+        cout<<numero2<<", ";
+        if(numero1 > numero3 &&numero1 > numero4){
+            cout<<numero1    <<", ";
+            if(numero3 > numero4){
+                cout<<numero3<<", "<<numero4;
+            }
+            if(numero4 > numero3){
+                cout<<numero4<<", "<<numero3;
+            }
+        }
+        if(numero3 > numero1 &&numero3 > numero4){
+            cout<<numero3<<", ";
+            if(numero1 > numero4){
+                cout<<numero1<<", "<<numero4;
+            }
+            if(numero4 > numero1){
+                cout<<numero4<<", "<<numero1;
+            }
+        } 
+        if(numero4 > numero1 &&numero4 > numero3){
+            cout<<numero4<<", ";
+            if(numero1 > numero3){
+                cout<<numero1<<", "<<numero3;
+            }
+            if(numero3 > numero1){
+                cout<<numero1<<", "<<numero3;
+            }
+        }    
+    }
+    if(numero3 > numero1 && numero3 > numero2 && numero3 > numero4){
+        cout<<numero3<<", ";
+        if(numero1 > numero2 &&numero1 > numero4){
+            cout<<numero1    <<", ";
+            if(numero2 > numero4){
+                cout<<numero2<<", "<<numero4;
+            }
+            if(numero4 > numero2){
+                cout<<numero4<<", "<<numero2;
+            }
+        }
+        if(numero2 > numero1 &&numero2 > numero4){
+            cout<<numero2<<", ";
+            if(numero1 > numero4){
+                cout<<numero1<<", "<<numero4;
+            }
+            if(numero4 > numero1){
+                cout<<numero4<<", "<<numero1;
+            }
+        } 
+        if(numero4 > numero1 &&numero4 > numero2){
+            cout<<numero4<<", ";
+            if(numero1 > numero2){
+                cout<<numero1<<", "<<numero2;
+            }
+            if(numero2 > numero1){
+                cout<<numero2<<", "<<numero1;
+            }
+        }    
+    }
+    if(numero4 > numero1 && numero4 > numero2 && numero4 > numero3){
+        cout<<numero4<<", ";
+        if(numero1 > numero2 &&numero1 > numero3){
+            cout<<numero1    <<", ";
+            if(numero2 > numero3){
+                cout<<numero2<<", "<<numero3;
+            }
+            if(numero3 > numero2){
+                cout<<numero3<<", "<<numero2;
+            }
+        }
+        if(numero2 > numero1 &&numero2 > numero3){
+            cout<<numero2<<", ";
+            if(numero1 > numero3){
+                cout<<numero1<<", "<<numero3;
+            }
+            if(numero3 > numero1){
+                cout<<numero3<<", "<<numero1;
+            }
+        } 
+        if(numero3 > numero1 &&numero3 > numero2){
+            cout<<numero3<<", ";
+            if(numero1 > numero2){
+                cout<<numero1<<", "<<numero2;
+            }
+            if(numero2 > numero1){
+                cout<<numero2<<", "<<numero1;
+            }
+        }    
+    }
+
+}
